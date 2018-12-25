@@ -30,7 +30,7 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-blog_name: Patrick's Website
+blog_name:
 blog_description: Some thoughts and notes
 
 # Pagination
