@@ -31,7 +31,7 @@ google_analytics: UA-XXXXXXXXX # out your google-analytics code
 # Blog
 # -----------------------------------------------------------------------------
 blog_name: Patrick's Website
-blog_description: a simple website to introduce myself
+blog_description: Some thoughts and notes
 
 # Pagination
 paginate: 4
