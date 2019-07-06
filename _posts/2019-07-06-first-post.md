@@ -3,7 +3,7 @@ layout: post
 title: Raspberry pi 3 SSH Disconnecting
 date: 2019-07-06 11:19 -0700
 ---
-I set up a weather station with my raspberry pi in my room. It monitors temperature, humdity, pressure, and brightness. I adapted the UI from another project (which I can't find right now otherwise I would link to it) and it looks pretty good. ![](/Users/patrick/blog/assets/img/pi_weather_station.png)
+I set up a weather station with my raspberry pi in my room. It monitors temperature, humdity, pressure, and brightness. I adapted the UI from another project (which I can't find right now otherwise I would link to it) and it looks pretty good. ![](/assets/img/pi_weather_station.png)
 
 But after a few hours it seems like the wifi goes down on the Raspberry pi. I'm unable to ping it locally or SSH into it. I've checked with logs that it is still up and the weather station is still running.
 

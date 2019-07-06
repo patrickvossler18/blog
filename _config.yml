@@ -40,6 +40,7 @@ paginate_path: /blog/page:num/
 
 text:
   pagination:
+    enabled: true
     newer: 'Newer'
     older: 'Older'
 
@@ -58,7 +59,8 @@ collections:
   news:
     defaults:
       layout: post
-    output: true
+    output: false
+    future: true
     permalink: /news/:path/
   projects:
     output: true
