@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+  
+  <body>
+
+    {% include header.html %}
+    <link rel="stylesheet" href= "{{ '/assets/css/book_list.css' | prepend: site.baseurl | prepend: site.url }}" />
+
+    <div class="page-content">
+      
+      <div class="wrapper">
+            {{content}}
+          {% for book in site.data.books %}
+          <article>
+            <a href="{{ book.blog_url }}">
+              <img src="http://covers.openlibrary.org/b/isbn/{{ book.isbn }}-L.jpg" alt="{{ book.title }} {{ book.author }}"/>
+              <p>
+                <a href="{{ book.amazon_url }}"> {{ book.title }} </a>
+              </p>
+            </a>
+            <p>by {{ book.author }}</p>
+          </article>
+        {% endfor %}  
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+    {% include hemline.html %}
+
+  </body>
+
+</html>
+
+
+
