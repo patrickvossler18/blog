@@ -13,3 +13,8 @@ But after a few hours it seems like the wifi goes down on the Raspberry pi. I'm 
 * I've make sure that in the interfaces config the power-saving option is turned off
 
 I'll update this if I make any more progress on this.
+
+UPDATE:
+I totally forgot that I also assigned a permanent IP address for the raspberry pi on my local network. I did this by telling my wireless router to assign a static lease to my raspberry pi based on its MAC address. So far this has been working perfectly. Perhaps in the past the issue was that my raspberry pi's IP would change and that would explain why I would be able to ping or ssh into it even though everything seemed to be working fine.
+
+Looks like the problem has been solved!
