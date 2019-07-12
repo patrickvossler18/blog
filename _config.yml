@@ -83,11 +83,12 @@ plugins:
     - jekyll-paginate
     - jekyll/scholar
     - jemoji
+    - jekyll-feed
 
 # Jekyll-Scholar
 scholar:
 
-  last_name: Einstein
+  last_name: Vossler
 
   style: apa
   locale: en
