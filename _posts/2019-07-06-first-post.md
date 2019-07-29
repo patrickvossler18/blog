@@ -18,3 +18,6 @@ UPDATE:
 I totally forgot that I also assigned a permanent IP address for the raspberry pi on my local network. I did this by telling my wireless router to assign a static lease to my raspberry pi based on its MAC address. So far this has been working perfectly. Perhaps in the past the issue was that my raspberry pi's IP would change and that would explain why I would be able to ping or ssh into it even though everything seemed to be working fine.
 
 Looks like the problem has been solved!
+
+UPDATE 7/28:
+I was still been having issues with the pi disconnecting after several days. After checking the gunicorn logs, I think the source of the problem could be in the html template. Originally the html template makes requests to update the graph every second which means that the pi is polling the sensors, writing the data to the database, and then sending the request to the webpage every second. My current fix is to update the page once a minute. It's very possible this isn't actually the issue but either way for a personal page like this, I don't really need second by second updates of the temperature in my room.
