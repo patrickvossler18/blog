@@ -45,7 +45,7 @@ description:
 </div>
 
 <div class="container">
-    <div class="topbar"><span>Meeting Attendence Form</span>
+    <div class="topbar"><span>Meeting Attendance Form</span>
 
     </div>
     <div class="content">
