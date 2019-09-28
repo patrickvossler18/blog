@@ -83,7 +83,7 @@ plugins:
     - jekyll-paginate
     - jekyll/scholar
     - jemoji
-    # - jekyll-feed
+    - jekyll-feed
 
 # Jekyll-Scholar
 scholar:
