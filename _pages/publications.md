@@ -1,12 +1,12 @@
 ---
 layout: page
 permalink: /publications/
-title: publications
-description: Coming soon!
+title: publications and manuscripts
+description:
 years:
 ---
 
-<!-- {% for y in page.years %}
+{% for y in page.years %}
   <h3 class="year">{{y}}</h3>
   {% bibliography -f papers -q @*[year={{y}}]* %}
-{% endfor %} -->
+{% endfor %}
