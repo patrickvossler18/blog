@@ -5,4 +5,6 @@ title: teaching
 description:
 ---
 
-Check back once I've started TA-ing.
+Teaching Assistant:
+
+* BUAD 312: Statistics and Data Science for Business, Spring 2020.
