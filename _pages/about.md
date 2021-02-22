@@ -12,7 +12,7 @@ news: false
 social: true
 ---
 
-I am a statistics Ph.D. candidate at the University of Southern California. My advisor is [Jinchi Lv](http://faculty.marshall.usc.edu/jinchi-lv). I recieved my B.S. in Mathematics and Economics from USC in 2017.
+I am a statistics Ph.D. candidate at the University of Southern California. My advisor is [Jinchi Lv](http://faculty.marshall.usc.edu/jinchi-lv). I received my B.S. in Mathematics and Economics from USC in 2017.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
